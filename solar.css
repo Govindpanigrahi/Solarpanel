@@ -1,0 +1,418 @@
+ *{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ body{
+    margin: 0;
+ }
+ .nav1{
+    width: 100%;
+    background-color:black;
+    margin-bottom:0px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+ }
+ .nav1>ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.nav1>ul>li{
+display: inline;
+}
+.nav1>ul>li>a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 10px 50px;
+}
+.nav1>ul>li>a:hover{
+background-color: white;
+color: black;
+}
+.main{
+    margin-top: 0px;
+}
+.poster{
+    position: relative;
+    padding-top:0px;
+    margin-top: 0px;
+}
+.image-1{
+    width: 100%;
+    position: relative;
+    padding-top: 0px;
+}
+.contain{
+    position: absolute;
+    top: 370px;
+    margin-left: 80px;
+    }
+.contain1{
+    color:white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.contain2{
+    color:orange;
+    font-size: 30px;
+}
+.contain p{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contain3{
+    font-size: 20px;
+    color:  rgb(12, 12, 49);
+}
+.btn{
+    border: none;
+    font-size: 20px;
+    background-color: rgb(107, 229, 107);
+    padding: 15px 40px;
+    color: white;
+    border-radius: 60px;
+}
+.btn:hover{
+    background-color: green;
+    color:white;
+}
+.poster2{
+    margin-top: 120px;
+    text-align: center;
+}
+.p-containt{
+    font-size: 70px;
+    color: brown;
+    font-weight: bold;
+}
+.divider{
+    border: 2px solid;
+    padding: 5px;
+    background-color: green;
+    width: 50%;
+    border-radius: 100px;
+    padding-top: 2px;
+    border: none;
+}
+.container{
+    width: 100%;
+}
+.image-2{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+.row-1{
+    display: flex;
+}
+.col-1{
+    width: 25%;
+}
+.About-card{
+margin: 5px;
+background-color:lightgreen;
+border-radius: 10px;
+}
+.About-card-body{
+    text-align: center;
+    padding: 5px 10px;
+    padding-top: 10px;
+}
+.wind1{
+    color:black;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.wind2{
+    color:rgb(9, 9, 28);
+    font-weight: bold;
+    font-size: 17px;
+}
+.About-card:hover{
+    background-color:darkgreen;
+}
+.poster3{
+    background-color:grey;
+    position: relative;
+    width: 100%;
+
+
+}
+.poster4{
+    background-color: lightgreen;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color:rgb(14, 14, 46);
+}
+.image-3{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 20px;
+    top: 20px;
+}
+.p4{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.divider2{
+    border: 2px solid  black;
+    padding: 2px;
+    background-color:orange;
+    margin-left:20px;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+    }
+    .p5{
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .p6{
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .p7{
+        margin: 20px;
+        font-weight: bold;
+    }
+    .btn1{
+
+            border: none;
+            font-size: 20px;
+            background-color:rgb(18, 138, 18);
+            padding: 15px 40px;
+            color: white;
+            border-radius: 60px;
+            text-decoration: none;
+        }
+        .btn1:hover{
+            background-color: darkgreen;
+            color: white;
+        }
+        .container2{
+            width: 100%;
+            padding: 10px;
+    
+        }
+        .container2 h1{
+            text-align: center;
+            font-size: 40px;
+            color: brown;
+            padding: 20px;
+        }
+
+    .row-2{
+        display: flex;
+
+    }    
+    .col-3{
+        width:33.33%;
+
+    }
+.About-card1{
+background-color:rgb(132, 132, 184);
+border-radius: 5px;
+border: none;
+margin: 10px;
+padding: 2px;
+}
+.About-card-body11{
+    text-align: center;
+    padding: 20px;
+}
+.About-card-body1{
+    text-align: center;
+
+}
+.wind3{
+    color:darkgreen;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.wind4{
+    color:rgb(9, 9, 28);
+    font-weight: bold;
+    font-size: 17px;
+}
+.About-card1:hover{
+    background-color:lightsteelblue;
+    color: white;
+}
+.image-4{
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.row-4{
+    display: flex;
+    margin-left: 20px;
+
+}
+.Service{
+    width: 100%;
+    border: 1px solid darkgreen;
+    padding:20px;
+    background-color: lightblue;
+}
+.Service>ul>li{
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(8, 8, 37);
+}
+.col-4{
+    width: 33.33%;
+}
+
+
+
+.pricing-card-body{
+    text-align: center;
+    background-color:lightcyan;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(6, 6, 38);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pricing-card-heading{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+.solar-price{
+    color:rgb(2, 2, 22);
+    font-weight: bold;
+    background-color: lightgray;
+    width: 100%;
+    padding: 20px;
+}
+.solar-price h1{
+    font-size: 50px;
+}
+.solar-price p{
+    font-size: 18px;
+}
+.poster5{
+    position: relative;
+    width: 70%;
+    height: 550px;
+    background-color:lightslategrey;
+}
+.image-5{
+    width: 70%;
+    height: 400px;
+    position: relative;
+    margin:60px;
+    margin-left: 550px;
+}
+.solar-price-list{
+    top: 60px;
+    position: absolute;
+    padding: 20px;
+}
+.solar-price-list>ul>li{
+    padding: 17px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: rgb(1, 1, 22);
+}
+.poster6{
+    background-color: rgb(110, 155, 194);
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.customer{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+
+}
+.customer-rivew{
+    background-color: lightgray;
+    width: 100%;
+}
+.row-5{
+    display: flex;
+    margin: 5px;
+    gap: 10px;
+  }
+  .col-5{
+    width: 25%;
+  }
+  .image-6{
+    width: 100%;
+  }
+  .customer-card{
+    background-color:black;
+  }
+.customer-name{
+    padding: 10px;
+    color: white;
+}
+
+.happy-customer-rivew{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(2, 2, 31);
+}
+.row-6{
+    display: flex;
+}
+.col-6{
+    width: 25%;
+    margin: 1px;
+}
+.image-7{
+    width: 100%;
+    height: 200px;
+}
+.carrer-card{
+    display: inline;
+}
+.carrer-content{
+    background-color:lightslategrey;
+    margin: 20px;
+    padding: 30px;
+}
+.carrer-content>ul{
+    margin-top: 0;
+    padding-top: 0px;
+    }
+    .carrer-content>ul>li{
+        padding: 18px;
+    }
+    input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0px;
+}
+.form{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+    
